@@ -24,9 +24,11 @@ The above command populate 100 user and 100 entry to the user_details and user_a
 Note: This Endpoint is for localhost .
 
 Url: http://127.0.0.1:8000/activity/  
+
 Method: Get
 
 Example Response Format :
+
 		{
 			"ok": true,
 			"members": [{
@@ -73,9 +75,11 @@ Example Response Format :
 # API EndPoint of Hosted Server
 
 URL: http://dubeysachin03.pythonanywhere.com/activity/
+
 Method: Get
 
 Example Response Format :
+
 		{
 			"ok": true,
 			"members": [{

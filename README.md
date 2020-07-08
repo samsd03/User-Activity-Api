@@ -1,16 +1,17 @@
 # User-Activity-Api
 
-************Requirements****************
+# Requirements
 1. Python 3
 2. Django 3
 
 
-***********Set Up***********************
+# Set Up
 1. Install Python3 in Your System.
 2. Install all required pacakages from requirement.txt file .
 
 
-***********Custom Management Command Usage For Dummy Data in Database***************
+# Custom Management Command Usage For Dummy Data in Database
+
 To use Custom Management Command Use following :
 
 python manage.py seed
@@ -18,7 +19,7 @@ python manage.py seed
 The above command populate 100 user and 100 entry to the user_details and user_activity table respectively.
 
 
-***********API Usage and Endpoint(Local Server) **********************************
+# API Usage and Endpoint(Local Server)
 
 Note: This Endpoint is for localhost .
 
@@ -69,7 +70,8 @@ Example Response Format :
 
 
 
-**********************API EndPoint of Hosted Server **************************
+# API EndPoint of Hosted Server
+
 URL: http://dubeysachin03.pythonanywhere.com/activity/
 Method: Get
 
